@@ -1,0 +1,131 @@
+<html>
+<head>
+
+<title>Page</title>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    div div {
+        background: #a4ca39;
+        position: relative;
+    }
+
+    .android {
+        width: 340px;
+        height: 400px;
+    }
+
+    .head {
+        width: 200px;
+        height: 100px;
+        top: 32px;
+        border-radius: 220px 220px 0 0;
+    }
+
+    .left_eye,
+    .right_eye {
+        border-radius: 100%;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 42px;
+        background: white;
+    }
+
+    .left_eye {
+        left: 50px;
+    }
+
+    .right_eye {
+        right: 50px;
+    }
+
+    .left_antenaa,
+    .right_antenaa {
+        position: absolute;
+        width: 6px;
+        height: 50px;
+        top: -34px;
+        border-radius: 3px;
+    }
+
+    .left_antenaa {
+        left: 50px;
+        transform: rotate(-30deg);
+    }
+
+    .right_antenaa {
+        right: 50px;
+        transform: rotate(30deg)
+    }
+
+    .body {
+        position: relative;
+        top: 42px;
+        width: 200px;
+        height: 184px;
+        border-radius: 0 0 25px 25px;
+
+    }
+
+    .left_arm,
+    .right_arm,
+    .left_leg,
+    .right_leg {
+        width: 50px;
+        position: absolute;
+    }
+
+    .left_arm {
+        height: 150px;
+        left: -58px;
+        border-radius: 25px;
+    }
+
+    .right_arm {
+        height: 150px;
+        right: -58px;
+        border-radius: 25px;
+    }
+
+    .left_leg {
+        border-radius: 0 0 25px 25px;
+        height: 100px;
+        top: 192px;
+        left: 40px;
+    }
+
+    .right_leg {
+        border-radius: 0 0 25px 25px;
+        height: 100px;
+        top: 192px;
+        right: 40px;
+
+    }
+</style>
+</head>
+<body>
+
+<div class="android">
+    <div class="head">
+        <div class="left_antenaa"></div>
+        <div class="right_antenaa"></div>
+        <div class="left_eye"></div>
+        <div class="right_eye"></div>
+    </div>
+    <div class="body">
+        <div class="left_arm"></div>
+        <div class="right_arm"></div>
+        <div class="left_leg"></div>
+        <div class="right_leg"></div>
+    </div>
+</div>
+
+
+</body>
+</html>
