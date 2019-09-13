@@ -47,8 +47,7 @@ start the application
 $ python startup.py
 ```
 ### Screenshots
-  ![](/resources/1.gif])
-  ![](/resources/2.gif)
+![](/resources/1.gif) ![](/resources/2.gif)
 
 
 ## Build
